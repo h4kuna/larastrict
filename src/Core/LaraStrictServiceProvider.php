@@ -40,7 +40,6 @@ class LaraStrictServiceProvider extends AbstractBaseServiceProvider
         $this->app->register(ContextServiceProvider::class);
         $this->app->register(CacheServiceProvider::class);
         $this->app->register(DatabaseServiceProvider::class);
-        $this->app->register(TestServiceProvider::class);
         $this->app->register(DockerServiceProvider::class);
         $this->app->register(LogServiceProvider::class);
         $this->app->register(QueueServiceProvider::class);
