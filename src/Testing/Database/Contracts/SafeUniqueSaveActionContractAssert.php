@@ -9,7 +9,9 @@ use Illuminate\Database\Eloquent\Model;
 use LaraStrict\Database\Contracts\SafeUniqueSaveActionContract;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
-
+/**
+ * @todo regenerate
+ */
 class SafeUniqueSaveActionContractAssert extends AbstractExpectationCallsMap implements SafeUniqueSaveActionContract
 {
     /**

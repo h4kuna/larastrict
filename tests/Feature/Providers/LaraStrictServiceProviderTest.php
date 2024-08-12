@@ -13,10 +13,6 @@ use LaraStrict\Database\Actions\RunInTransactionAction;
 use LaraStrict\Database\Actions\SafeUniqueSaveAction;
 use LaraStrict\Database\Contracts\RunInTransactionActionContract;
 use LaraStrict\Database\Contracts\SafeUniqueSaveActionContract;
-use LaraStrict\Testing\Actions\GetBasePathForStubsAction;
-use LaraStrict\Testing\Actions\GetNamespaceForStubsAction;
-use LaraStrict\Testing\Contracts\GetBasePathForStubsActionContract;
-use LaraStrict\Testing\Contracts\GetNamespaceForStubsActionContract;
 use LaraStrict\Testing\Providers\Concerns\AssertProviderBindings;
 use Tests\LaraStrict\Feature\Database\Models\Test;
 use Tests\LaraStrict\Feature\TestCase;
@@ -56,8 +52,6 @@ class LaraStrictServiceProviderTest extends TestCase
             expectedMap: [
                 RunInTransactionActionContract::class => RunInTransactionAction::class,
                 SafeUniqueSaveActionContract::class => SafeUniqueSaveAction::class,
-                GetBasePathForStubsActionContract::class => GetBasePathForStubsAction::class,
-                GetNamespaceForStubsActionContract::class => GetNamespaceForStubsAction::class,
                 ImplementsService::class => ImplementsService::class,
                 ScheduleServiceContract::class => ScheduleService::class,
             ]
@@ -71,8 +65,6 @@ class LaraStrictServiceProviderTest extends TestCase
             expectedMap: [
                 ScheduleServiceContract::class => ScheduleService::class,
                 SafeUniqueSaveActionContract::class => SafeUniqueSaveAction::class,
-                GetBasePathForStubsActionContract::class => GetBasePathForStubsAction::class,
-                GetNamespaceForStubsActionContract::class => GetNamespaceForStubsAction::class,
                 ImplementsService::class => ImplementsService::class,
                 SleepServiceContract::class => SleepServiceContract::class,
             ]

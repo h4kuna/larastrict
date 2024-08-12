@@ -10,7 +10,9 @@ use LaraStrict\Queue\Contracts\RunOrQueueJobActionContract;
 use LaraStrict\Queue\Jobs\Job;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
-
+/**
+ * @todo regenerate
+ */
 class RunOrQueueJobActionContractAssert extends AbstractExpectationCallsMap implements RunOrQueueJobActionContract
 {
     /**

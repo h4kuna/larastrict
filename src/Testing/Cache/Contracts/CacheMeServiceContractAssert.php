@@ -12,6 +12,9 @@ use LaraStrict\Cache\Enums\CacheMeStrategy;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
 
+/**
+ * @todo regenerate
+ */
 class CacheMeServiceContractAssert extends AbstractExpectationCallsMap implements CacheMeServiceContract
 {
     /**

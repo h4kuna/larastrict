@@ -17,10 +17,10 @@ use LaraStrict\Testing\Core\Services\NoSleepService;
 
 class TestServiceProvider extends ServiceProvider
 {
-    public array $bindings = [
-        GetBasePathForStubsActionContract::class => GetBasePathForStubsAction::class,
-        GetNamespaceForStubsActionContract::class => GetNamespaceForStubsAction::class,
-    ];
+//    public array $bindings = [
+//        GetBasePathForStubsActionContract::class => GetBasePathForStubsAction::class,
+//        GetNamespaceForStubsActionContract::class => GetNamespaceForStubsAction::class,
+//    ];
 
     public function register(): void
     {
@@ -37,8 +37,6 @@ class TestServiceProvider extends ServiceProvider
         if (in_array($environment, [EnvironmentType::Testing, EnvironmentType::Local], false) === false) {
             return;
         }
-
-        $this->commands([MakeExpectationCommand::class]);
 
         if ($this->app->runningUnitTests()) {
             $this->app->singleton(SleepServiceContract::class, NoSleepService::class);

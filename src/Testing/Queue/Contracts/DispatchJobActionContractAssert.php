@@ -8,7 +8,9 @@ use LaraStrict\Queue\Contracts\DispatchJobActionContract;
 use LaraStrict\Queue\Jobs\Job;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
-
+/**
+ * @todo regenerate
+ */
 class DispatchJobActionContractAssert extends AbstractExpectationCallsMap implements DispatchJobActionContract
 {
     /**

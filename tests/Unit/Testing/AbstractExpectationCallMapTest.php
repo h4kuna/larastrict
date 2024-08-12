@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\LaraStrict\Unit\Testing;
 
-use LaraStrict\Testing\Assert\AssertExpectationManager;
 use LaraStrict\Testing\Assert\AssertExpectationTestCase;
 use PHPUnit\Framework\AssertionFailedError;
+use StrictPhp\StrictMock\Testing\Assert\AssertExpectationManager;
 
 class AbstractExpectationCallMapTest extends AssertExpectationTestCase
 {

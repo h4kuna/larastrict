@@ -8,6 +8,9 @@ use LaraStrict\Config\Contracts\AppConfigContract;
 use LaraStrict\Enums\EnvironmentType;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 
+/**
+ * @todo regenerate
+ */
 class AppConfigContractAssert extends AbstractExpectationCallsMap implements AppConfigContract
 {
     /**

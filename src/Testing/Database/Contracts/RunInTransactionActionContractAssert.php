@@ -8,7 +8,9 @@ use Closure;
 use LaraStrict\Database\Contracts\RunInTransactionActionContract;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
-
+/**
+ * @todo regenerate
+ */
 class RunInTransactionActionContractAssert extends AbstractExpectationCallsMap implements RunInTransactionActionContract
 {
     /**

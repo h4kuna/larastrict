@@ -13,6 +13,9 @@ use LaraStrict\Context\Values\BoolContextValue;
 use LaraStrict\Testing\Assert\AbstractExpectationCallsMap;
 use PHPUnit\Framework\Assert;
 
+/**
+ * @todo regenerate
+ */
 class ContextServiceContractAssert extends AbstractExpectationCallsMap implements ContextServiceContract
 {
     /**
